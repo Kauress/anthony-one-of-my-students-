@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>JavaScript exercises</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href='css/style.css'rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Javascript Machine</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/HTML.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Objects In Javascript</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h2>Arrays</h2>
+                                <h3>Definition</h3>
+        <p>An array is a ordered list of elements, where each element has a value of any data type. You can define an array by putting a list of any values inside brackets ([]). To change a element in the array, you would start with the array name, then you would use the index of the item you want to change inside of brackets ([]). Then set the value equal to the new amount. You can add a element to the array by also starting with the array name, with the value set to the new element. Its gonna be added to the end of the array. You can also use the .push method to add an element to an array. First, you would start with the array name followed by the .push("") syntax for the method. Other than the push method you can also use the .concat() method. Like the push method you start with the name followed by the .concat(). </p>
+        <p>If you wanted to remove an element from the array you could use the .pop() method. First, you would start with the array name followed by the .pop(""), and what you want removed in the paranthesis. The .splice("") method is a little similar to the pop method in the sense that it removes items. But it removes items and returns the removed items to a new array. With the forEach method you are able to iterate over a given array. It starts with the callback function and uses the elements value as a arguement. You can also perform equations inside of the arguement.</p>
+        <p>If you wanted to create a new array with a value that depends on a set array you can use the forEach method. The .filter("") method is a different way you can mutate the original array given by a arguement in the filter.</p>
+        <p>You can nest arrays inside arrays to create something kinda like sub-categories. Later on you can call in the onjects inside the nested arrays using the .index method. If you want to make your array look a little more clean you could use the .sort() method. This method sorts an array of unsorted numbers starting from the smallest to the biggest. The .reverse method turns around the order of the array.</p> 
+        <div>
+    <h3 class="section-heading">Excercises: </h3>
+       <div class= "container variableexc">
+       <code>
+          <ol>
+            <li> Declare a variable named age and set it equal to 3 different ages. <br> Then change one of the values in the array to 18.</li>
+            <li> Declare a variable called color and set it equal to 3 colors <br> Add the color black to the end of the array.</li>
+            <li> Declare a variable "My favorite food is ' ' " <br>Add your favorite food into the blank quotation marks inside of the string.</li>
+            <li> Declare a variable named "myFavoriteAnimals" <br>Add 3 of your favorite animals into the string. <br>Finally into the console add var myfavoriteAnimals.length to see the size of your string.</li>
+            <li> Declare a variable using the let keyword named "numberOfChips" and assign it to the value of 8. <br> Declare a variable using the let keyword named "numberOfCandies" and assign it to the value of 18. <br> Finally declare a variable using the let keyword named "totalSnacks" and set it to the vlaue of "numberOfChips" + "numberOfCandies" and that will be the total amount of snacks that are in stock.</li>
+          </ol>
+        </code>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- Footer -->
+  <footer>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
